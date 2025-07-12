@@ -1,0 +1,15 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "ts-node",
+    "build": "tsc",
+    "start": "node dist/",
+    "day": "ts-node"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
