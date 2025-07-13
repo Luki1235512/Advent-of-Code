@@ -7,6 +7,10 @@ edition = "2024"
 name = "2015_01"
 path = "2015/Rust/01.rs"
 
+[[bin]]
+name = "2016_01"
+path = "2016/Rust/01.rs"
+
 # [[bin]]
 # name = "2015_02"
 # path = "2015/Rust/02.rs"
