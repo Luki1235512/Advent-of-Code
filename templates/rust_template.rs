@@ -10,28 +10,12 @@ mod day_01 {
             .to_string()
     }
 
-    fn part1(input: &str) -> i32 {
-        let mut floor: i32 = 0;
-
-        for char in input.chars() {
-            floor += if char == '(' { 1 } else { -1 };
-        }
-
-        return floor;
+    fn part1(_input: &str) -> i32 {
+        0
     }
 
-    fn part2(input: &str) -> i32 {
-        let mut floor: i32 = 0;
-
-        for (index, char) in input.chars().enumerate() {
-            floor += if char == '(' { 1 } else { -1 };
-
-            if floor == -1 {
-                return (index + 1) as i32;
-            }
-        }
-
-        return floor;
+    fn part2(_input: &str) -> i32 {
+        0
     }
 
     pub fn run() {

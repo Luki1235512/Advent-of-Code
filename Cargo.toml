@@ -4,13 +4,13 @@ version = "0.1.0"
 edition = "2024"
 
 [[bin]]
-name = "2015_01"
-path = "2015/Rust/01.rs"
+name = "2015"
+path = "2015/Rust/main.rs"
 
 [[bin]]
-name = "2016_01"
-path = "2016/Rust/01.rs"
+name = "2016"
+path = "2016/Rust/main.rs"
 
-# [[bin]]
-# name = "2015_02"
-# path = "2015/Rust/02.rs"
+[[bin]]
+name = "2017"
+path = "2017/Rust/main.rs"
