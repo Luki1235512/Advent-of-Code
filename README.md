@@ -23,7 +23,7 @@ npm run day {year}\TypeScript\{day}.ts
 ### Rust
 
 ```bash
-cargo run --bin {year}_{day}
+cargo run --bin {year}
 ```
 
 ## Setup
