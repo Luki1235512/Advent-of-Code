@@ -9,7 +9,7 @@ Solutions for Advent of Code challenges implemented in both TypeScript and Rust.
 ├── input/           # Input files
 ├── Rust/            # Rust solutions
 └── TypeScript/      # TypeScript solutions
-templates/           # Template files for new solutions
+template/            # Template files for new solutions
 ```
 
 ## Running Solutions

@@ -1,9 +1,9 @@
-mod day_01 {
+mod day_ {
     use std::fs;
     use std::path::{Path, PathBuf};
 
     fn read_input() -> String {
-        let input_path: PathBuf = Path::new(file!()).parent().unwrap().join("../input/01.txt");
+        let input_path: PathBuf = Path::new(file!()).parent().unwrap().join("../input/.txt");
         fs::read_to_string(input_path)
             .expect("Failed to read input file")
             .trim()
@@ -26,4 +26,4 @@ mod day_01 {
     }
 }
 
-pub use day_01::run;
+pub use day_::run;

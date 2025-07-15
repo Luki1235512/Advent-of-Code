@@ -2,7 +2,7 @@ import * as fs from "fs";
 import * as path from "path";
 
 function readInput(): string {
-  const inputPath = path.join(__dirname, "../input/01.txt");
+  const inputPath = path.join(__dirname, "../input/.txt");
   return fs.readFileSync(inputPath, "utf8").trim();
 }
 
