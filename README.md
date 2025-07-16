@@ -35,7 +35,7 @@ cargo run --bin {year}
 
 ## Templates
 
-Template files are available in the `templates/` directory:
+Template files are available in the `template/` directory:
 
 - [`template/TypeScript`](template/TypeScript) - TypeScript template
 - [`template/Rust`](template/Rust) - Rust template
