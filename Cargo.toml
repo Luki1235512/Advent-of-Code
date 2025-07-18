@@ -18,3 +18,7 @@ path = "2017/Rust/main.rs"
 [[bin]]
 name = "2018"
 path = "2018/Rust/main.rs"
+
+[[bin]]
+name = "2019"
+path = "2019/Rust/main.rs"
