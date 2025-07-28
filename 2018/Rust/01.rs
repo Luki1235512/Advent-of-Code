@@ -11,10 +11,10 @@ mod day_01 {
     }
 
     fn part1(input: &str) -> i32 {
-        return input
+        input
             .split("\r\n")
             .map(|elem| elem.parse::<i32>().unwrap())
-            .sum();
+            .sum()
     }
 
     fn part2(input: &str) -> i32 {

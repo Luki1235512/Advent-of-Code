@@ -27,7 +27,7 @@ mod day_01 {
             y += MOVES[current_dir as usize][1] * distance;
         }
 
-        return x.abs() + y.abs();
+        x.abs() + y.abs()
     }
 
     fn part2(input: &str) -> i32 {
@@ -54,7 +54,7 @@ mod day_01 {
             }
         }
 
-        return x.abs() + y.abs();
+        x.abs() + y.abs()
     }
 
     pub fn run() {

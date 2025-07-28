@@ -22,7 +22,7 @@ mod day_01 {
             }
         }
 
-        return sum;
+        sum
     }
 
     fn part2(input: &str) -> i32 {
@@ -37,7 +37,7 @@ mod day_01 {
             }
         }
 
-        return sum;
+        sum
     }
 
     pub fn run() {

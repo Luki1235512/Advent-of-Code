@@ -11,13 +11,13 @@ mod day_01 {
     }
 
     fn part1(input: &str) -> i32 {
-        return input
+        input
             .lines()
             .map(|mass| {
                 let fuel = mass.parse::<i32>().unwrap();
                 (fuel / 3) - 2
             })
-            .sum();
+            .sum()
     }
 
     fn part2(input: &str) -> i32 {
@@ -32,7 +32,7 @@ mod day_01 {
             }
         }
 
-        return fuel;
+        fuel
     }
 
     pub fn run() {

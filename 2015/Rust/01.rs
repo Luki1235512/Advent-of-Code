@@ -17,7 +17,7 @@ mod day_01 {
             floor += if char == '(' { 1 } else { -1 };
         }
 
-        return floor;
+        floor
     }
 
     fn part2(input: &str) -> i32 {
@@ -31,7 +31,7 @@ mod day_01 {
             }
         }
 
-        return floor;
+        floor
     }
 
     pub fn run() {

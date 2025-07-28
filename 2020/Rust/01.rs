@@ -21,7 +21,7 @@ mod day_01 {
             }
         }
 
-        return -1;
+        -1
     }
 
     fn part2(input: &str) -> i32 {
@@ -46,7 +46,7 @@ mod day_01 {
         }
 
 
-        return -1;
+        -1
     }
 
     pub fn run() {
