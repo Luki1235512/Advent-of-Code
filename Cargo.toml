@@ -34,3 +34,7 @@ path = "2021/Rust/main.rs"
 [[bin]]
 name = "2022"
 path = "2022/Rust/main.rs"
+
+[[bin]]
+name = "2023"
+path = "2023/Rust/main.rs"
