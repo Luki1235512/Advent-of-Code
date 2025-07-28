@@ -6,7 +6,12 @@ function readInput(): string {
   return fs.readFileSync(inputPath, "utf8").trim();
 }
 
-const moves = [[-1, 0], [0, -1], [1, 0], [0, 1]];
+const moves = [
+  [-1, 0],
+  [0, -1],
+  [1, 0],
+  [0, 1],
+];
 
 function part1(input: string): number {
   let currentDir = 0;
@@ -23,7 +28,7 @@ function part1(input: string): number {
     y += moves[currentDir][1] * distance;
   }
 
-  return Math.abs(x) + Math.abs(y)
+  return Math.abs(x) + Math.abs(y);
 }
 
 function part2(input: string): number {
@@ -51,10 +56,10 @@ function part2(input: string): number {
     }
   }
 
-  return Math.abs(x) + Math.abs(y)
+  return Math.abs(x) + Math.abs(y);
 }
 
 const input = readInput();
-  
+
 console.log("Part 1:", part1(input));
 console.log("Part 2:", part2(input));

@@ -11,7 +11,7 @@ function part1(input: string): number {
 
   for (let i = 0; i < input.length; i++) {
     const nextIndex = (i + 1) % input.length;
-    
+
     if (input[i] === input[nextIndex]) {
       sum += Number(input[i]);
     }
@@ -35,6 +35,6 @@ function part2(input: string): number {
 }
 
 const input = readInput();
-  
+
 console.log("Part 1:", part1(input));
 console.log("Part 2:", part2(input));
